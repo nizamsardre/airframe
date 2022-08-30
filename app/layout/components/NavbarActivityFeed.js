@@ -62,13 +62,13 @@ const NavbarActivityFeed = (props) => (
                                 </Media>
                                 <Media body>
                                     <span className="h6">
-                                        { faker.name.firstName() } { faker.name.lastName() }
-                                    </span> changed Description to &quot;{ faker.random.words() }&quot;
+                                        { 'faker.name.firstName()' } { 'faker.name.lastName()' }
+                                    </span> changed Description to &quot;{ 'faker.random.words()' }&quot;
                                     <p className="mt-2 mb-1">
-                                        { faker.lorem.sentence() }
+                                        { 'faker.lorem.sentence()' }
                                     </p>
                                     <div className="small mt-2">
-                                        { faker.date.past().toString() }
+                                        { 'faker.date.past()'.toString() }
                                     </div>
                                 </Media>
                             </Media>

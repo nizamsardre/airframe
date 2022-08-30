@@ -21,7 +21,7 @@ const columns = [
 
 const data = _.times(500, (index) => ({
     id: index,
-    name: faker.commerce.productName(),
+    name: 'faker.commerce.productName()',
     price: Math.round(2000 + Math.random() * 500)
 }));
 

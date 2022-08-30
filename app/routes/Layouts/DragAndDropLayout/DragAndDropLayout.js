@@ -194,7 +194,7 @@ export class DragAndDropLayout extends React.Component {
 
     _generateTexts = (layouts) =>
         _.mapValues(layouts, () => ({
-            title: faker.commerce.productName(),
-            desc: faker.lorem.paragraph()
+            title: 'faker.commerce.productName()',
+            desc: 'faker.lorem.paragraph())'
         }))
 }

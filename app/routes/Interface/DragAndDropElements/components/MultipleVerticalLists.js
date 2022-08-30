@@ -26,8 +26,8 @@ import classes from './common.scss';
 const generateItem = () => ({
     id: uid(),
     type: 'single',
-    name: `${faker.name.firstName()} ${faker.name.lastName()}`,
-    title: faker.name.jobType(),
+    name: `name`,
+    title: 'title',
     avatarUrl: randomAvatar(),
     status: randomArray(['success', 'warning', 'danger'])
 });

@@ -12,11 +12,11 @@ import { HeaderMain } from "../../components/HeaderMain";
 export class Editor extends React.Component {
     state = {
         text: `
-            <p>${ faker.lorem.paragraph() }</p>
+            <p>${ 'faker.lorem.paragraph())' }</p>
             <br/>
-            <p>${ faker.lorem.paragraph() }</p>
+            <p>${ 'faker.lorem.paragraph())' }</p>
             <br/>
-            <p>${ faker.lorem.paragraph() }</p>
+            <p>${ 'faker.lorem.paragraph())' }</p>
         `
     }
 

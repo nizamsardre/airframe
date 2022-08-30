@@ -45,21 +45,21 @@ const TrTableGalleryList = (props) => (
             <td className="align-middle">
                 <span>
                     <a className="text-inverse" href="#">
-                        { faker.commerce.productName() }
+                        { 'faker.commerce.productName()' }
                     </a>
                     <br />
                     <span href="#">
-                        { faker.system.fileName() }
+                        { 'faker.system.fileName() ' }
                     </span>
                     <br />
                     <Badge pill color={ randomArray(badges) } className="mr-1">
-                        { faker.commerce.department() }
+                        { 'faker.commerce.department()' }
                     </Badge>
                     <Badge pill color={ randomArray(badges) } className="mr-1">
-                        { faker.commerce.department() }
+                        { 'faker.commerce.department()' }
                     </Badge>
                     <Badge pill color={ randomArray(badges) } className="mr-1">
-                        { faker.commerce.department() }
+                        { 'faker.commerce.department()' }
                     </Badge>
                 </span>
             </td>
@@ -85,10 +85,10 @@ const TrTableGalleryList = (props) => (
                     </Media>
                     <Media body>
                         <a className="mt-0 text-decoration-none d-flex" href="#">
-                            { faker.name.firstName() } { faker.name.lastName() }
+                            { 'faker.name.firstName()' } { 'faker.name.lastName()' }
                         </a>
                         <span>
-                            { faker.address.state() }, { faker.address.stateAbbr() } 
+                            { 'faker.address.state() ' }, { 'faker.address.stateAbbr() ' } 
                         </span>
                     </Media>
                 </Media>
@@ -97,7 +97,7 @@ const TrTableGalleryList = (props) => (
                 22-Jul-2012
             </td>
             <td className="align-middle">
-                Size: { faker.random.number() } Kb<br />
+                Size: { 'faker.random.number() ' } Kb<br />
                 Format: .png
             </td>
             <td className="align-middle text-right">

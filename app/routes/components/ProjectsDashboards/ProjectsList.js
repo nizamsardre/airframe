@@ -12,7 +12,7 @@ const ProjectsList = (props) => (
         <div className="d-flex flex-column">
             <div className="mb-3 d-flex justify-content-between">
                 <span className="mb-0 text-inverse">
-                     { props.title || faker.commerce.productName() }
+                     { props.title || 'faker.commerce.productName()' }
                 </span>
                 <Badge color={ `${ props.badgeColor }` } pill className="align-self-center">
                     { props.badgeTitle }

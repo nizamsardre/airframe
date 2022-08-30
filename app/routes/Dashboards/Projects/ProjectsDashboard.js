@@ -45,7 +45,7 @@ const ProjectsDashboard = () => (
                     className="mb-4 mb-lg-5"
                 />
                 <p>
-                    { faker.lorem.paragraph() }
+                    { 'faker.lorem.paragraph())' }
                 </p>
             </Col>
             <Col lg={ 3 }>

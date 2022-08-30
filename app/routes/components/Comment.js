@@ -41,14 +41,14 @@ const Comment = (props) => (
         <Media body>
             <div className="mb-2">
                 <span className="text-inverse mr-2">
-                    { faker.name.firstName() } { faker.name.firstName() }
+                    { 'faker.name.firstName()' } { 'faker.name.firstName()' }
                 </span>
                 <span className="small">
                     13-Jun-2015, 08:13
                 </span>
             </div>
             <p className="mb-1">
-                { faker.lorem.paragraph() }
+                { 'faker.lorem.paragraph())' }
             </p>
             <div>
                 <span className="text-success mr-2">

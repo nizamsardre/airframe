@@ -80,20 +80,20 @@ const TrTableTasksList = (props) => (
             </td>
             <td className="align-middle">
                 <div>
-                    <span className="mr-2">#{ faker.random.number() }</span>
+                    <span className="mr-2">#{ 'faker.random.number() ' }</span>
                     <Link to="/apps/task-details" className="text-decoration-none">
-                        { faker.hacker.phrase() }
+                        { 'faker.hacker.phrase()' }
                     </Link>
                 </div>
                 <p className="mb-0">
                     <span className="mr-2">
-                        { faker.lorem.sentence() }
+                        { 'faker.lorem.sentence()' }
                     </span>
                     <Badge pill color={ randomArray(badges) } className="mr-1">
-                        { faker.commerce.department() }
+                        { 'faker.commerce.department()' }
                     </Badge>
                     <Badge pill color={ randomArray(badges) } className="mr-1">
-                        { faker.commerce.department() }
+                        { 'faker.commerce.department()' }
                     </Badge>
                 </p>
             </td>

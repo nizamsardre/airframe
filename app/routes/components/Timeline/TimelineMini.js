@@ -38,11 +38,11 @@ const TimelineMini = (props) => (
                     </div>
                     { /* Content */}
                     <p className="text-inverse mb-1">
-                        { faker.company.catchPhrase() }
+                        { 'faker.company.catchPhrase() ' }
                     </p>
                     { /* Date */}
                     <p>
-                        { faker.date.past().toString() }
+                        { 'faker.date.past()'.toString() }
                     </p>
                 </div>
             </div>

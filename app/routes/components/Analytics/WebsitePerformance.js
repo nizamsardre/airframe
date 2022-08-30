@@ -30,7 +30,7 @@ const WebsitePerformance = (props) => (
                     { props.valuePercent }%
                 </div>
                 <div>
-                    vs { faker.finance .amount() } <i>(prev.)</i>
+                    vs { 'faker.finance .amount()' } <i>(prev.)</i>
                 </div>
             </Col>
         </Row>

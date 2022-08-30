@@ -24,17 +24,17 @@ const TrTableBordered = () => (
                 <tr key={ index }>
                     <td className="align-middle">
                         <span className="text-inverse">
-                            { faker.company.catchPhrase() }
+                            { 'faker.company.catchPhrase() ' }
                         </span>
                     </td>
                     <td className="align-middle">
                         <Progress value={ completion[index%4] } style={{height: "5px"}} />
                     </td>
                     <td className="align-middle">
-                        { faker.date.weekday() }, 12 { faker.date.month() }, 2018
+                        { 'faker.date.weekday() ' }, 12 { 'faker.date.month() ' }, 2018
                     </td>
                     <td className="align-middle">
-                        { faker.date.weekday() }, 12 { faker.date.month() }, 2018
+                        { 'faker.date.weekday() ' }, 12 { 'faker.date.month() ' }, 2018
                     </td>
                     <td className="align-middle text-right">
                         <ButtonGroup>

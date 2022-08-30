@@ -31,7 +31,7 @@ const brand = [
                 Facebook
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -47,7 +47,7 @@ const brand = [
                 Twitter
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -63,7 +63,7 @@ const brand = [
                 Linkedin
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -79,7 +79,7 @@ const brand = [
                 Foursquare
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -95,7 +95,7 @@ const brand = [
                 LastFM
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -111,7 +111,7 @@ const brand = [
                 PayPal
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -127,7 +127,7 @@ const brand = [
                 Amazon
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -143,7 +143,7 @@ const brand = [
                 Skype
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -159,7 +159,7 @@ const brand = [
                 Spotify
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -175,7 +175,7 @@ const brand = [
                 Pinterest
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -191,7 +191,7 @@ const brand = [
                 Windows
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -207,7 +207,7 @@ const brand = [
                 Android
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -223,7 +223,7 @@ const brand = [
                 Medium
             </div>
             <span>
-                { faker.address.country() }
+                { 'faker.address.country()' }
             </span>
         </Media>
     </Media>,
@@ -266,12 +266,12 @@ const TrTableCompanies = (props) => (
                 />
             </td>
             <td className="align-middle text-right">
-                { faker.phone.phoneNumberFormat() }<br />
-                { faker.internet.email() } 
+                { 'faker.phone.phoneNumberFormat()' }<br />
+                { 'faker.internet.email()' } 
             </td>
             <td className="align-middle text-right">
-                { faker.address.streetAddress() }<br />
-                { faker.address.city() } 
+                { 'faker.address.streetAddress()' }<br />
+                { 'faker.address.city() '} 
             </td>
         </tr>
     </React.Fragment>
